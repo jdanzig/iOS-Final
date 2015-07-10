@@ -1,0 +1,598 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "Name": "Chicago Marriott Downtown Magnificent Mile",
+                 "Address": "541 North Rush Street, Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "12:00 AM",
+                 "Monday": "12:00 AM",
+                 "Tuesday": "12:00 AM",
+                 "Wednesday": "12:00 AM",
+                 "Thursday": "12:00 AM",
+                 "Friday": "12:00 AM",
+                 "Saturday": "12:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "11:59 PM",
+                 "Monday": "11:59 PM",
+                 "Tuesday": "11:59 PM",
+                 "Wednesday": "11:59 PM",
+                 "Thursday": "11:59 PM",
+                 "Friday": "11:59 PM",
+                 "Saturday": "11:59 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "LineString",
+                 "coordinates": [
+                                 [
+                                  -87.625353,
+                                  41.892113
+                                  ],
+                                 [
+                                  -87.6243,
+                                  41.892113
+                                  ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "fill": "#00ff00",
+                 "fill-opacity": 0.5,
+                 "Name": "The Shops at North Bridge Block 121",
+                 "Address": "520 N Michigan Ave, Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "11:00 AM",
+                 "Monday": "10:00 AM",
+                 "Tuesday": "10:00 AM",
+                 "Wednesday": "10:00 AM",
+                 "Thursday": "10:00 AM",
+                 "Friday": "10:00 AM",
+                 "Saturday": "10:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "8:00 PM",
+                 "Monday": "8:00 PM",
+                 "Tuesday": "8:00 PM",
+                 "Wednesday": "8:00 PM",
+                 "Thursday": "8:00 PM",
+                 "Friday": "8:00 PM",
+                 "Saturday": "6:00 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "Polygon",
+                 "coordinates": [
+                                  [
+                                   -87.62429505586624,
+                                   41.892396449599566
+                                   ],
+                                  [
+                                   -87.62445330619812,
+                                   41.89250426789768
+                                   ],
+                                  [
+                                   -87.62428969144821,
+                                   41.89197116453788
+                                   ],
+                                  [
+                                   -87.6237505674362,
+                                   41.89174753933198
+                                   ],
+                                  [
+                                   -87.62429505586624,
+                                   41.892396449599566
+                                   ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "fill": "#00ff00",
+                 "fill-opacity": 0.5,
+                 "Name": "The Shops at North Bridge Block 120",
+                 "Address": "83 E. Ohio St., Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "11:00 AM",
+                 "Monday": "10:00 AM",
+                 "Tuesday": "10:00 AM",
+                 "Wednesday": "10:00 AM",
+                 "Thursday": "10:00 AM",
+                 "Friday": "10:00 AM",
+                 "Saturday": "10:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "8:00 PM",
+                 "Monday": "8:00 PM",
+                 "Tuesday": "8:00 PM",
+                 "Wednesday": "8:00 PM",
+                 "Thursday": "8:00 PM",
+                 "Friday": "8:00 PM",
+                 "Saturday": "6:00 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "Polygon",
+                 "coordinates": [
+                                  [
+                                   -87.62637913227081,
+                                   41.892470325119746
+                                   ],
+                                  [
+                                   -87.62572467327116,
+                                   41.892470325119746
+                                   ],
+                                  [
+                                   -87.62563347816467,
+                                   41.89173156607303
+                                   ],
+                                  [
+                                   -87.62650787830353,
+                                   41.89173156607303
+                                   ],
+                                  [
+                                   -87.62637913227081,
+                                   41.892470325119746
+                                   ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "fill": "#00ff00",
+                 "fill-opacity": 0.5,
+                 "Name": "The Shops at North Bridge Block 119",
+                 "Address": "520 N. Michigan Ave., Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "11:00 AM",
+                 "Monday": "10:00 AM",
+                 "Tuesday": "10:00 AM",
+                 "Wednesday": "10:00 AM",
+                 "Thursday": "10:00 AM",
+                 "Friday": "10:00 AM",
+                 "Saturday": "10:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "8:00 PM",
+                 "Monday": "8:00 PM",
+                 "Tuesday": "8:00 PM",
+                 "Wednesday": "8:00 PM",
+                 "Thursday": "8:00 PM",
+                 "Friday": "8:00 PM",
+                 "Saturday": "6:00 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "Polygon",
+                 "coordinates": [
+                                  [
+                                   -87.6278704404831,
+                                   41.89169961954314
+                                   ],
+                                  [
+                                   -87.62678682804108,
+                                   41.89185535872542
+                                   ],
+                                  [
+                                   -87.627515,
+                                   41.89169961954314
+                                   ],
+                                  [
+                                   -87.6278704404831,
+                                   41.89169961954314
+                                   ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "fill": "#00ff00",
+                 "fill-opacity": 0.5,
+                 "Name": "Merchandise Mart Properties Inc.",
+                 "Address": "West Merchandise Mart Plaza, Chicago, IL 60654",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "Closed",
+                 "Monday": "9:00 AM",
+                 "Tuesday": "9:00 AM",
+                 "Wednesday": "9:00 AM",
+                 "Thursday": "9:00 AM",
+                 "Friday": "9:00 AM",
+                 "Saturday": "10:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "Closed",
+                 "Monday": "5:00 PM",
+                 "Tuesday": "5:00 PM",
+                 "Wednesday": "5:00 PM",
+                 "Thursday": "5:00 PM",
+                 "Friday": "5:00 PM",
+                 "Saturday": "3:00 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "Polygon",
+                 "coordinates": [
+                                  [
+                                   -87.636246,
+                                   41.888026
+                                   ],
+                                  [
+                                   -87.6341,
+                                   41.888389
+                                   ],
+                                  [
+                                   -87.634063,
+                                   41.8891
+                                   ],
+                                  [
+                                   -87.636917,
+                                   41.888972
+                                   ],
+                                  [
+                                   -87.636246,
+                                   41.888026
+                                   ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "fill": "#00ff00",
+                 "fill-opacity": 0.5,
+                 "Name": "Water Tower Place",
+                 "Address": "835 N. Michigan Ave., Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "11:00 AM",
+                 "Monday": "10:00 AM",
+                 "Tuesday": "10:00 AM",
+                 "Wednesday": "10:00 AM",
+                 "Thursday": "10:00 AM",
+                 "Friday": "10:00 AM",
+                 "Saturday": "10:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "6:00 PM",
+                 "Monday": "9:00 PM",
+                 "Tuesday": "9:00 PM",
+                 "Wednesday": "9:00 PM",
+                 "Thursday": "9:00 PM",
+                 "Friday": "9:00 PM",
+                 "Saturday": "9:00 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "Polygon",
+                 "coordinates": [
+                                  [
+                                   -87.623894,
+                                   41.897939
+                                   ],
+                                  [
+                                   -87.623502,
+                                   41.898284
+                                   ],
+                                  [
+                                   -87.622987,
+                                   41.898374
+                                   ],
+                                  [
+                                   -87.621901,
+                                   41.898236
+                                   ],
+                                  [
+                                   -87.623195,
+                                   41.897685
+                                   ],
+                                  [
+                                   -87.623894,
+                                   41.897939
+                                   ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "fill": "#00ff00",
+                 "fill-opacity": 0.5,
+                 "Name": "John Hancock Center",
+                 "Address": "875 N Michigan Avenue, Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "9:00 AM",
+                 "Monday": "9:00 AM",
+                 "Tuesday": "9:00 AM",
+                 "Wednesday": "9:00 AM",
+                 "Thursday": "9:00 AM",
+                 "Friday": "9:00 AM",
+                 "Saturday": "9:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "11:00 PM",
+                 "Monday": "11:00 PM",
+                 "Tuesday": "11:00 PM",
+                 "Wednesday": "11:00 PM",
+                 "Thursday": "11:00 PM",
+                 "Friday": "11:00 PM",
+                 "Saturday": "11:00 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "Polygon",
+                 "coordinates": [
+                                  [
+                                   -87.62369,
+                                   41.898787
+                                   ],
+                                  [
+                                   -87.623079,
+                                   41.898583
+                                   ],
+                                  [
+                                   -87.621945,
+                                   41.898795
+                                   ],
+                                  [
+                                   -87.62283,
+                                   41.899041
+                                   ],
+                                  [
+                                   -87.623174,
+                                   41.899037
+                                   ],
+                                  [
+                                   -87.62369,
+                                   41.898787
+                                   ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "Name": "Walgreen's",
+                 "Address": "410 N. Michigan Ave., Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "8:00 AM",
+                 "Monday": "6:30 AM",
+                 "Tuesday": "6:30 AM",
+                 "Wednesday": "6:30 AM",
+                 "Thursday": "6:30 AM",
+                 "Friday": "6:30 AM",
+                 "Saturday": "8:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "11:59 PM",
+                 "Monday": "11:59 PM",
+                 "Tuesday": "11:59 PM",
+                 "Wednesday": "11:59 PM",
+                 "Thursday": "11:59 PM",
+                 "Friday": "11:59 PM",
+                 "Saturday": "11:59 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "LineString",
+                 "coordinates": [
+                                 [
+                                  -87.624368,
+                                  41.890265
+                                  ],
+                                 [
+                                  -87.625138,
+                                  41.890213
+                                  ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "fill": "#00ff00",
+                 "fill-opacity": 0.5,
+                 "Name": "Loyola University School of Law",
+                 "Address": "25 E. Pearson St., Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "Closed",
+                 "Monday": "9:00 AM",
+                 "Tuesday": "9:00 AM",
+                 "Wednesday": "9:00 AM",
+                 "Thursday": "9:00 AM",
+                 "Friday": "9:00 AM",
+                 "Saturday": "Closed"
+                 },
+                 "Closed": {
+                 "Sunday": "Closed",
+                 "Monday": "7:00 PM",
+                 "Tuesday": "7:00 PM",
+                 "Wednesday": "7:00 PM",
+                 "Thursday": "7:00 PM",
+                 "Friday": "2:00 PM",
+                 "Saturday": "Closed"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "Polygon",
+                 "coordinates": [
+                                  [
+                                   -87.62809842824936,
+                                   41.89729401198026
+                                   ],
+                                  [
+                                   -87.62718111276627,
+                                   41.897419790331746
+                                   ],
+                                  [
+                                   -87.62698262929916,
+                                   41.89730000143118
+                                   ],
+                                  [
+                                   -87.62809842824936,
+                                   41.89729401198026
+                                   ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "Name": "Loyola University (Water Tower Campus)",
+                 "Address": "111 E Pearson St, Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "Closed",
+                 "Monday": "9:00 AM",
+                 "Tuesday": "9:00 AM",
+                 "Wednesday": "9:00 AM",
+                 "Thursday": "9:00 AM",
+                 "Friday": "9:00 AM",
+                 "Saturday": "Closed"
+                 },
+                 "Closed": {
+                 "Sunday": "Closed",
+                 "Monday": "7:00 PM",
+                 "Tuesday": "7:00 PM",
+                 "Wednesday": "7:00 PM",
+                 "Thursday": "7:00 PM",
+                 "Friday": "2:00 PM",
+                 "Saturday": "Closed"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "LineString",
+                 "coordinates": [
+                                 [
+                                  -87.62582659721375,
+                                  41.89736788183574
+                                  ],
+                                 [
+                                  -87.62496829032898,
+                                  41.89737986072319
+                                  ]
+                                 ]
+                 }
+                 },
+                 {
+                 "type": "Feature",
+                 "properties": {
+                 "stroke": "#006400",
+                 "stroke-width": 3,
+                 "stroke-opacity": 1,
+                 "fill": "#00ff00",
+                 "fill-opacity": 0.5,
+                 "Name": "Northwestern Memorial Hospital",
+                 "Address": "251 E Huron St, Chicago, IL 60611",
+                 "Hours": {
+                 "Open": {
+                 "Sunday": "12:00 AM",
+                 "Monday": "12:00 AM",
+                 "Tuesday": "12:00 AM",
+                 "Wednesday": "12:00 AM",
+                 "Thursday": "12:00 AM",
+                 "Friday": "12:00 AM",
+                 "Saturday": "12:00 AM"
+                 },
+                 "Closed": {
+                 "Sunday": "11:59 PM",
+                 "Monday": "11:59 PM",
+                 "Tuesday": "11:59 PM",
+                 "Wednesday": "11:59 PM",
+                 "Thursday": "11:59 PM",
+                 "Friday": "11:59 PM",
+                 "Saturday": "11:59 PM"
+                 }
+                 }
+                 },
+                 "geometry": {
+                 "type": "Polygon",
+                 "coordinates": [
+                                  [
+                                   -87.61961460113525,
+                                   41.895089855900785
+                                   ],
+                                  [
+                                   -87.62176036834717,
+                                   41.89584854139779
+                                   ],
+                                  [
+                                   -87.62249529361725,
+                                   41.89508186968973
+                                   ],
+                                  [
+                                   -87.62290835380554,
+                                   41.89453081871494
+                                   ],
+                                  [
+                                   -87.621551156044,
+                                   41.894291229851675
+                                   ],
+                                  [
+                                   -87.62127757072449,
+                                   41.89429522300676
+                                   ],
+                                  [
+                                   -87.61961460113525,
+                                   41.895089855900785
+                                   ]
+                                 ]
+                 }
+                 }
+                 ]
+}

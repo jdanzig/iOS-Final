@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93CD98181ABA3B8F00896ABB /* BuildingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CD98171ABA3B8F00896ABB /* BuildingManager.m */; };
+		EF1BD2F91AA90718004F17EC /* ListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1BD2F81AA90718004F17EC /* ListViewCell.m */; };
+		EF22FA7A1AA8F79B00D98D93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FA791AA8F79B00D98D93 /* main.m */; };
+		EF22FA7D1AA8F79B00D98D93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FA7C1AA8F79B00D98D93 /* AppDelegate.m */; };
+		EF22FA801AA8F79B00D98D93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FA7F1AA8F79B00D98D93 /* ViewController.m */; };
+		EF22FA831AA8F79B00D98D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF22FA811AA8F79B00D98D93 /* Main.storyboard */; };
+		EF22FA851AA8F79B00D98D93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF22FA841AA8F79B00D98D93 /* Images.xcassets */; };
+		EF22FA881AA8F79B00D98D93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF22FA861AA8F79B00D98D93 /* LaunchScreen.xib */; };
+		EF22FA941AA8F79B00D98D93 /* CutThruTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FA931AA8F79B00D98D93 /* CutThruTests.m */; };
+		EF22FA9E1AA8F7DF00D98D93 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF22FA9D1AA8F7DF00D98D93 /* CoreLocation.framework */; };
+		EF22FAA31AA8F93500D98D93 /* ContainerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FAA21AA8F93500D98D93 /* ContainerSegue.m */; };
+		EF22FAA61AA8F95900D98D93 /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FAA51AA8F95900D98D93 /* Building.m */; };
+		EF22FAA91AA8F98A00D98D93 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FAA81AA8F98A00D98D93 /* ContainerViewController.m */; };
+		EF22FAAC1AA8F9CB00D98D93 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FAAB1AA8F9CB00D98D93 /* ListViewController.m */; };
+		EF22FAAF1AA8FA1400D98D93 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF22FAAE1AA8FA1400D98D93 /* MapViewController.m */; };
+		EF22FAB01AA8FC5600D98D93 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF22FA9F1AA8F7E500D98D93 /* MapKit.framework */; };
+		EFCC9C1A1AB3883D0072A5AC /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCC9C191AB3883D0072A5AC /* InfoViewController.m */; };
+		EFCC9C1E1AB391370072A5AC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EFCC9C1D1AB391370072A5AC /* Settings.bundle */; };
+		EFCC9C201AB3B2AF0072A5AC /* Buildings.geojson in Resources */ = {isa = PBXBuildFile; fileRef = FDBF17311AB14CF40016E64B /* Buildings.geojson */; };
+		FD4A96DA1AAE9E4100FBA5F6 /* ChicagoTestPoint.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FD4A96D91AAE9E4100FBA5F6 /* ChicagoTestPoint.gpx */; };
+		FDBF17331AB26B8E0016E64B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBF17321AB26B8E0016E64B /* SystemConfiguration.framework */; };
+		FDBF17361AB26B9C0016E64B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBF17351AB26B9C0016E64B /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF22FA8E1AA8F79B00D98D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF22FA6C1AA8F79B00D98D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF22FA731AA8F79B00D98D93;
+			remoteInfo = CutThru;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93CD98161ABA3B8F00896ABB /* BuildingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingManager.h; sourceTree = "<group>"; };
+		93CD98171ABA3B8F00896ABB /* BuildingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingManager.m; sourceTree = "<group>"; };
+		EF1BD2F71AA90718004F17EC /* ListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewCell.h; sourceTree = "<group>"; };
+		EF1BD2F81AA90718004F17EC /* ListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewCell.m; sourceTree = "<group>"; };
+		EF22FA741AA8F79B00D98D93 /* CutThru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutThru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF22FA781AA8F79B00D98D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF22FA791AA8F79B00D98D93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF22FA7B1AA8F79B00D98D93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF22FA7C1AA8F79B00D98D93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF22FA7E1AA8F79B00D98D93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF22FA7F1AA8F79B00D98D93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF22FA821AA8F79B00D98D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF22FA841AA8F79B00D98D93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF22FA871AA8F79B00D98D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF22FA8D1AA8F79B00D98D93 /* CutThruTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutThruTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF22FA921AA8F79B00D98D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF22FA931AA8F79B00D98D93 /* CutThruTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutThruTests.m; sourceTree = "<group>"; };
+		EF22FA9D1AA8F7DF00D98D93 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EF22FA9F1AA8F7E500D98D93 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF22FAA11AA8F93500D98D93 /* ContainerSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerSegue.h; sourceTree = "<group>"; };
+		EF22FAA21AA8F93500D98D93 /* ContainerSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerSegue.m; sourceTree = "<group>"; };
+		EF22FAA41AA8F95900D98D93 /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		EF22FAA51AA8F95900D98D93 /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		EF22FAA71AA8F98A00D98D93 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		EF22FAA81AA8F98A00D98D93 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		EF22FAAA1AA8F9CB00D98D93 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		EF22FAAB1AA8F9CB00D98D93 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		EF22FAAD1AA8FA1400D98D93 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EF22FAAE1AA8FA1400D98D93 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EFCC9C181AB3883D0072A5AC /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		EFCC9C191AB3883D0072A5AC /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		EFCC9C1D1AB391370072A5AC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = ../Settings.bundle; sourceTree = "<group>"; };
+		FD4A96D91AAE9E4100FBA5F6 /* ChicagoTestPoint.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ChicagoTestPoint.gpx; sourceTree = "<group>"; };
+		FDBF17311AB14CF40016E64B /* Buildings.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = Buildings.geojson; sourceTree = "<group>"; };
+		FDBF17321AB26B8E0016E64B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FDBF17341AB26B9C0016E64B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FDBF17351AB26B9C0016E64B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF22FA711AA8F79B00D98D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBF17331AB26B8E0016E64B /* SystemConfiguration.framework in Frameworks */,
+				EF22FAB01AA8FC5600D98D93 /* MapKit.framework in Frameworks */,
+				EF22FA9E1AA8F7DF00D98D93 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22FA8A1AA8F79B00D98D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF22FA6B1AA8F79B00D98D93 = {
+			isa = PBXGroup;
+			children = (
+				FDBF17321AB26B8E0016E64B /* SystemConfiguration.framework */,
+				EF22FA9F1AA8F7E500D98D93 /* MapKit.framework */,
+				EF22FA9D1AA8F7DF00D98D93 /* CoreLocation.framework */,
+				EF22FA761AA8F79B00D98D93 /* CutThru */,
+				EF22FA901AA8F79B00D98D93 /* CutThruTests */,
+				EF22FA751AA8F79B00D98D93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF22FA751AA8F79B00D98D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF22FA741AA8F79B00D98D93 /* CutThru.app */,
+				EF22FA8D1AA8F79B00D98D93 /* CutThruTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF22FA761AA8F79B00D98D93 /* CutThru */ = {
+			isa = PBXGroup;
+			children = (
+				FD4A96D91AAE9E4100FBA5F6 /* ChicagoTestPoint.gpx */,
+				EF22FAA41AA8F95900D98D93 /* Building.h */,
+				EF22FAA51AA8F95900D98D93 /* Building.m */,
+				93CD98161ABA3B8F00896ABB /* BuildingManager.h */,
+				93CD98171ABA3B8F00896ABB /* BuildingManager.m */,
+				EF22FAA11AA8F93500D98D93 /* ContainerSegue.h */,
+				EF22FAA21AA8F93500D98D93 /* ContainerSegue.m */,
+				EF22FAA71AA8F98A00D98D93 /* ContainerViewController.h */,
+				EF22FAA81AA8F98A00D98D93 /* ContainerViewController.m */,
+				EF22FAAD1AA8FA1400D98D93 /* MapViewController.h */,
+				EF22FAAE1AA8FA1400D98D93 /* MapViewController.m */,
+				EF22FAAA1AA8F9CB00D98D93 /* ListViewController.h */,
+				EF22FAAB1AA8F9CB00D98D93 /* ListViewController.m */,
+				EF1BD2F71AA90718004F17EC /* ListViewCell.h */,
+				EF1BD2F81AA90718004F17EC /* ListViewCell.m */,
+				EF22FA7B1AA8F79B00D98D93 /* AppDelegate.h */,
+				EF22FA7C1AA8F79B00D98D93 /* AppDelegate.m */,
+				EF22FA7E1AA8F79B00D98D93 /* ViewController.h */,
+				EF22FA7F1AA8F79B00D98D93 /* ViewController.m */,
+				EF22FA811AA8F79B00D98D93 /* Main.storyboard */,
+				EFCC9C181AB3883D0072A5AC /* InfoViewController.h */,
+				EFCC9C191AB3883D0072A5AC /* InfoViewController.m */,
+				FDBF17311AB14CF40016E64B /* Buildings.geojson */,
+				FDBF17341AB26B9C0016E64B /* Reachability.h */,
+				FDBF17351AB26B9C0016E64B /* Reachability.m */,
+				EF22FA841AA8F79B00D98D93 /* Images.xcassets */,
+				EFCC9C1D1AB391370072A5AC /* Settings.bundle */,
+				EF22FA861AA8F79B00D98D93 /* LaunchScreen.xib */,
+				EF22FA771AA8F79B00D98D93 /* Supporting Files */,
+			);
+			path = CutThru;
+			sourceTree = "<group>";
+		};
+		EF22FA771AA8F79B00D98D93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF22FA781AA8F79B00D98D93 /* Info.plist */,
+				EF22FA791AA8F79B00D98D93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF22FA901AA8F79B00D98D93 /* CutThruTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF22FA931AA8F79B00D98D93 /* CutThruTests.m */,
+				EF22FA911AA8F79B00D98D93 /* Supporting Files */,
+			);
+			path = CutThruTests;
+			sourceTree = "<group>";
+		};
+		EF22FA911AA8F79B00D98D93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF22FA921AA8F79B00D98D93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF22FA731AA8F79B00D98D93 /* CutThru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF22FA971AA8F79B00D98D93 /* Build configuration list for PBXNativeTarget "CutThru" */;
+			buildPhases = (
+				EF22FA701AA8F79B00D98D93 /* Sources */,
+				EF22FA711AA8F79B00D98D93 /* Frameworks */,
+				EF22FA721AA8F79B00D98D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutThru;
+			productName = CutThru;
+			productReference = EF22FA741AA8F79B00D98D93 /* CutThru.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF22FA8C1AA8F79B00D98D93 /* CutThruTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF22FA9A1AA8F79B00D98D93 /* Build configuration list for PBXNativeTarget "CutThruTests" */;
+			buildPhases = (
+				EF22FA891AA8F79B00D98D93 /* Sources */,
+				EF22FA8A1AA8F79B00D98D93 /* Frameworks */,
+				EF22FA8B1AA8F79B00D98D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF22FA8F1AA8F79B00D98D93 /* PBXTargetDependency */,
+			);
+			name = CutThruTests;
+			productName = CutThruTests;
+			productReference = EF22FA8D1AA8F79B00D98D93 /* CutThruTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF22FA6C1AA8F79B00D98D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jonathan Danzig";
+				TargetAttributes = {
+					EF22FA731AA8F79B00D98D93 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EF22FA8C1AA8F79B00D98D93 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EF22FA731AA8F79B00D98D93;
+					};
+				};
+			};
+			buildConfigurationList = EF22FA6F1AA8F79B00D98D93 /* Build configuration list for PBXProject "CutThru" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF22FA6B1AA8F79B00D98D93;
+			productRefGroup = EF22FA751AA8F79B00D98D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF22FA731AA8F79B00D98D93 /* CutThru */,
+				EF22FA8C1AA8F79B00D98D93 /* CutThruTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF22FA721AA8F79B00D98D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCC9C201AB3B2AF0072A5AC /* Buildings.geojson in Resources */,
+				EF22FA831AA8F79B00D98D93 /* Main.storyboard in Resources */,
+				FD4A96DA1AAE9E4100FBA5F6 /* ChicagoTestPoint.gpx in Resources */,
+				EFCC9C1E1AB391370072A5AC /* Settings.bundle in Resources */,
+				EF22FA881AA8F79B00D98D93 /* LaunchScreen.xib in Resources */,
+				EF22FA851AA8F79B00D98D93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22FA8B1AA8F79B00D98D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF22FA701AA8F79B00D98D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BD2F91AA90718004F17EC /* ListViewCell.m in Sources */,
+				93CD98181ABA3B8F00896ABB /* BuildingManager.m in Sources */,
+				EF22FAA61AA8F95900D98D93 /* Building.m in Sources */,
+				EFCC9C1A1AB3883D0072A5AC /* InfoViewController.m in Sources */,
+				EF22FA801AA8F79B00D98D93 /* ViewController.m in Sources */,
+				EF22FAAC1AA8F9CB00D98D93 /* ListViewController.m in Sources */,
+				FDBF17361AB26B9C0016E64B /* Reachability.m in Sources */,
+				EF22FAAF1AA8FA1400D98D93 /* MapViewController.m in Sources */,
+				EF22FAA91AA8F98A00D98D93 /* ContainerViewController.m in Sources */,
+				EF22FA7D1AA8F79B00D98D93 /* AppDelegate.m in Sources */,
+				EF22FA7A1AA8F79B00D98D93 /* main.m in Sources */,
+				EF22FAA31AA8F93500D98D93 /* ContainerSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF22FA891AA8F79B00D98D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF22FA941AA8F79B00D98D93 /* CutThruTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF22FA8F1AA8F79B00D98D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF22FA731AA8F79B00D98D93 /* CutThru */;
+			targetProxy = EF22FA8E1AA8F79B00D98D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF22FA811AA8F79B00D98D93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF22FA821AA8F79B00D98D93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF22FA861AA8F79B00D98D93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF22FA871AA8F79B00D98D93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF22FA951AA8F79B00D98D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF22FA961AA8F79B00D98D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF22FA981AA8F79B00D98D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutThru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF22FA991AA8F79B00D98D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutThru/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF22FA9B1AA8F79B00D98D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CutThruTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutThru.app/CutThru";
+			};
+			name = Debug;
+		};
+		EF22FA9C1AA8F79B00D98D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CutThruTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutThru.app/CutThru";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF22FA6F1AA8F79B00D98D93 /* Build configuration list for PBXProject "CutThru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22FA951AA8F79B00D98D93 /* Debug */,
+				EF22FA961AA8F79B00D98D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF22FA971AA8F79B00D98D93 /* Build configuration list for PBXNativeTarget "CutThru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22FA981AA8F79B00D98D93 /* Debug */,
+				EF22FA991AA8F79B00D98D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF22FA9A1AA8F79B00D98D93 /* Build configuration list for PBXNativeTarget "CutThruTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF22FA9B1AA8F79B00D98D93 /* Debug */,
+				EF22FA9C1AA8F79B00D98D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF22FA6C1AA8F79B00D98D93 /* Project object */;
+}
